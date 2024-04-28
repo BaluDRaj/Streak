@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+	<test name="Login Test">
+		<classes>
+
+			<class name="com.streak.Day5.TestNG1" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Registration Test">
+		<classes>
+			<class name="com.streak.Day5.TestNG2" />
+
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Registration1 Test">
+		<classes>
+			<class name="com.streak.Day5.TestNG2" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
