@@ -12,6 +12,7 @@ public class Testparameterization {
 
 	}
 
+	
 	@DataProvider
 	public Object[][] getData() {
 		Object[][] data = new Object[2][2];

@@ -20,7 +20,7 @@ public class TestNG2 {
 		System.out.println("third method");
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 1,groups="hello")
 	public void fourthMethod() {
 		System.out.println("fourth method");
 	}
