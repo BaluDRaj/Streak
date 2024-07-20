@@ -9,17 +9,18 @@ public class CountOccurenceString {
 
 		String str = "programming";
 
-		Map<Character, Integer> charMapCount = new HashMap<>();
+		Map<Character, Integer> map = new HashMap<>();
+		
 
 		for (Character c : str.toCharArray()) {
-			if (charMapCount.containsKey(c)) {
-				charMapCount.put(c, charMapCount.get(c) + 1);
+			if (map.containsKey(c)) {
+				map.put(c, map.get(c) + 1);
 			}else 
 			{
-				charMapCount.put(c, 1);
+				map.put(c, 1);
 			}
 		}
-		System.out.println(charMapCount);
+		System.out.println(map);
 	}
 
 }
